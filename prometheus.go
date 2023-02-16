@@ -1,6 +1,6 @@
 // MIT License
 //
-// Copyright (c) 2021 Iván Szkiba
+// Copyright (c) 2023 Hans Knecht
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -28,9 +28,9 @@ import (
 	"net/http"
 	"net/url"
 
+	"github.com/knechtionscoding/xk6-prometheus/internal"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/sirupsen/logrus"
-	"github.com/szkiba/xk6-prometheus/internal"
 
 	"github.com/gorilla/schema"
 	"go.k6.io/k6/output"
